@@ -12,6 +12,9 @@ namespace ApplicationFinance.Classes.Implementations
 
         public override decimal ObterSaldo() => Saldo;
 
-       
+        public void Transfereir(decimal valorTransferencia, Conta origem, Conta destino)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
